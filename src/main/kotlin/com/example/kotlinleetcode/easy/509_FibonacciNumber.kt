@@ -1,9 +1,7 @@
 package com.example.kotlinleetcode.easy
 
 fun main() {
-
     fib(2)
-
 }
 
 fun fib(n: Int): Int {
