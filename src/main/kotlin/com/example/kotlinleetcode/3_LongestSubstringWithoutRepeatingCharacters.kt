@@ -1,13 +1,16 @@
 package com.example.kotlinleetcode
 
 fun main() {
+
+    // SOLVED
+
     //println(lengthOfLongestSubstring("pwwkew"))
     //println(lengthOfLongestSubstring("abcabcbb"))
     //println(lengthOfLongestSubstring("bbbbb"))
     //println(lengthOfLongestSubstring("au"))
-    println(lengthOfLongestSubstring("qrsvbspk"))
+    //println(lengthOfLongestSubstring("qrsvbspk"))
     //println(lengthOfLongestSubstring("au"))
-    println(lengthOfLongestSubstring("cdd"))
+    //println(lengthOfLongestSubstring("cdd"))
 }
 
 
@@ -25,15 +28,11 @@ fun lengthOfLongestSubstring(s: String): Int {
             i++
         } else {
             if (result <= data.size) {
-                if(result ==-1){
-                    result = data.size-1
-                }else{
-                    result = data.size
-                }
-                data.clear()
+                result = data.size
             }
             check++
             i = check
+            data.clear()
         }
     }
     return Integer.max(result, data.size)
