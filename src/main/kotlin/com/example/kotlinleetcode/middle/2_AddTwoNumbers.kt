@@ -8,11 +8,11 @@ fun main() {
     //var l2 = ListNode(9, ListNode(9, ListNode(9, ListNode(9, ListNode(9, ListNode(9, ListNode(9)))))))
     var l1 = ListNode(2,ListNode(4,ListNode(9)))
     var l2 = ListNode(5,ListNode(6,ListNode(4,ListNode(9))))
-    println(addTwoNumbers(l1, l2))
+    println(addTwoNumbers2(l1, l2))
 
 }
 
-fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
+fun addTwoNumbers2(l1: ListNode?, l2: ListNode?): ListNode? {
 
     val l1size =getSizeListNode(l1)
     val l2size =getSizeListNode(l2)
