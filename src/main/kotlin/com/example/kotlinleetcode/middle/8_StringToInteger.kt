@@ -2,6 +2,7 @@ package com.example.kotlinleetcode.middle
 
 fun main() {
 
+    // SOLVED
     // Tests
 //    println(myAtoi("42"))
     //println(myAtoi("      -42"))
