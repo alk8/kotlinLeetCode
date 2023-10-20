@@ -13,7 +13,7 @@ fun removeElement(nums: IntArray, `val`: Int): Int {
     nums.forEachIndexed { index, it ->
         if (it == `val`) {
             count++
-
+            nums[index] = Int.MAX_VALUE
         }
     }
 
